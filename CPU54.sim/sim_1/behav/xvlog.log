@@ -1,0 +1,52 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/LHU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LHU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/SH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/LH.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LH
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/LBU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LBU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/SB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/LB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LB
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/MUL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/MULU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MULU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/DIV.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIV
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/DIVU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DIVU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/LO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/HI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HI
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/CLZ.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLZ
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v" into library dist_mem_gen_v8_0_10
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_10
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/CP0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CP0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/IMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/DMEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DMEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sccomp_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module _246tb_ex10_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/thb20/Desktop/CPU54/CPU54.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

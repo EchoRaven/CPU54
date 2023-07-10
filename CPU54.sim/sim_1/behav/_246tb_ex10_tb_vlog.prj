@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/RegFile.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/LHU.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/PC.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/Controller.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/SH.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/LH.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/LBU.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/SB.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/LB.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/MUL.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/MULU.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/DIV.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/DIVU.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/LO.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/HI.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/CLZ.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/ALU.v"
+verilog dist_mem_gen_v8_0_10  "../../../CPU54.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/CP0.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/CPU.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/IMEM.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/DMEM.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/TOP.v"
+verilog xil_defaultlib  "../../../CPU54.srcs/sources_1/new/tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,279 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Jul 09 20:33:24 2023
+# Process ID: 38952
+# Current directory: C:/Users/thb20/Desktop/CPU54
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35984 C:\Users\thb20\Desktop\CPU54\CPU54.xpr
+# Log file: C:/Users/thb20/Desktop/CPU54/vivado.log
+# Journal file: C:/Users/thb20/Desktop/CPU54\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/thb20/Desktop/CPU54/CPU54.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source test.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source sccomp_dataflow.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+current_sim simulation_1
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+run 1000 us
+run 20 us
+close_sim
+launch_simulation
+source test.tcl
+run 20 us
+run all
+close_sim
+launch_simulation
+source test.tcl
+run 20 us
+run 1 s
+run 100 us
+update_compile_order -fileset sources_1
+run 100 us
+run all
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source sccomp_dataflow.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+source test.tcl
+run 100 us
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/_43.46_mfhi.mthi.code.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/mips_54_mars_simulate_student_ForWeb.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/_43.46_mfhi.mthi.code.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/_44.47_mflo.mtlo.code.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/mips_54_mars_simulate_student_ForWeb.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/_36.39_lbsb.code.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/_36.39_lbsb2.code.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/mips_54_mars_simulate_student_ForWeb.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/_36.39_lbsb.code.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/mips_54_mars_simulate_student_ForWeb.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close [ open C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/LHU.v w ]
+add_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/new/LHU.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+close_sim
+launch_simulation
+source test.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source _246tb_ex10_tb.tcl
+run 100 us
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/_49_multu.code.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source _246tb_ex10_tb.tcl
+close_sim
+launch_simulation
+source _246tb_ex10_tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/_37_lbu.code.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+current_sim simulation_46
+close_sim
+launch_simulation
+source _246tb_ex10_tb.tcl
+set_property -dict [list CONFIG.coefficient_file {C:/Users/thb20/Desktop/CPU54/coe/mips_54_mars_simulate_student_ForWeb.coe}] [get_ips dist_mem_gen_0]
+generate_target all [get_files  C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci]
+export_ip_user_files -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -no_script -force -quiet
+export_simulation -of_objects [get_files C:/Users/thb20/Desktop/CPU54/CPU54.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0.xci] -directory C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files -ipstatic_source_dir C:/Users/thb20/Desktop/CPU54/CPU54.ip_user_files/ipstatic -force -quiet
+close_sim
+launch_simulation
+source _246tb_ex10_tb.tcl
+close_sim
+launch_simulation
+source _246tb_ex10_tb.tcl
+run 100 us
+close_sim
+launch_simulation
+current_sim simulation_47
+launch_simulation
+source _246tb_ex10_tb.tcl
+run 100 us
+current_sim simulation_47
+current_sim simulation_51
+close_sim
+launch_simulation
+source _246tb_ex10_tb.tcl
+run 100 us
+close_sim
+launch_simulation
+source _246tb_ex10_tb.tcl
+run 100 us
+close_sim
+current_sim simulation_47
+close_sim
+current_sim simulation_43
+close_sim
+close_sim
